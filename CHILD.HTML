@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* child selector 
+#first>p{
+color:red;
+font-size:40px;
+}
+*/
+/* adjacent sibling selector
+p+h1{
+background-color:black;
+color:white;
+font-size:70px;
+}
+*/
+/*single line comment*/
+p~h1{
+color:red;
+background-color:blue;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<div id="first">
+<p>this is first paragraph</p>
+<h1>this is heading first</h1>
+<div id="second">
+	<p>this is inner paragraph</p>
+	<h1>this is inner heading tag</h1>
+</div>
+<h1>this is second heading</h1>
+<p>this is second paragraph</p>
+<p>this is third paragraph</p>
+</div>
+</body>
+</html>
